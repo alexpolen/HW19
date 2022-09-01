@@ -1,0 +1,171 @@
+
+body {
+    margin: 0;
+  }
+  header {
+    background-color: #373738;
+    padding: 15px;
+  }
+  header ul {
+    float: right;
+    color: white;
+  }
+  header li {
+    display: inline-block;
+    padding: 0px 5px;
+  }
+  header p {
+    display: inline-block;
+  }
+  /*
+  .heroImg {
+    width: 100%;
+    padding: 100px 15px;
+  }
+  */
+  .heroImg{
+    width: 100%;
+    padding: 100px 15px;
+    height: 50em;
+    background-image: url(../images/Hero\ Background\ Orange.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*
+    color: #fff6cc;*/
+    margin: 0 auto;
+  }
+  
+  
+  /*
+  .navBar .nav-link {
+    color: #fdd20b;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+  }
+  a:hover {
+    color: #ef08b4;
+  }
+  .navBar .nav-link:hover {
+    border-bottom: 2px solid #fdd20b;
+    border-bottom-width: fit-content; 
+  } */
+  
+  
+  
+  .content {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    /*
+    background-color: #FFFFFF; */
+    text-align: center;
+  }
+  button {
+    padding: 15px;
+    background-color: #373738;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+  }
+  
+  footer {
+    background-color: #373738;
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  footer ul {
+    list-style: none;
+    padding-left: 5px;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+  }
+  .heading {
+    text-align: center;
+    padding: 15px 5px;
+    font-size: 30px;
+  }
+  /* My UX Skills Section */
+  .flexContainer {
+    display: flex;
+    padding: 5% 5%;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .flexContainer {
+      display: inline-block;
+      padding: 5% 15%;
+    }
+  }
+  
+  .flexContainer div {
+    width: 33%;
+    padding: 25px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .flexContainer div {
+      width: 100%;
+    }
+  }
+  
+  /* My Work Section */
+  .myWork {
+    padding: 90px;
+    padding-right: 0;
+    padding-top: 0;
+    background-color: #9BD7F1;
+  }
+  .workGrid {
+    display: grid;
+    align-items: center;
+    padding: 30px;
+    grid-template-columns: 60% 20%;
+    grid-template-rows: 500px 650px;
+    grid-template-areas:
+    "img1 content1"
+    "img2 content2"
+  }
+  
+  @media screen and (max-width:600px) {
+    .workGrid {
+      display: grid;
+      padding: 30px;
+      padding-right: 90px;
+      grid-template-columns: 100%;
+      grid-template-rows: 450px 300px 700px 275px;
+      grid-template-areas:
+      "img1"
+      "content1"
+      "img2"
+      "content2"
+    }
+  }
+  
+  .workGrid img {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    display: block;
+  }
+  .img1 {
+    grid-area: img1;
+  }
+  .img2 {
+    grid-area: img2;
+  }
+  .img1, .img2, .content1, .content2, {
+    padding: 80px;
+    padding-right: 0;
+  }
+  .content1 {
+    grid-area: content1;
+  }
+  .content2 {
+    grid-area: content2;
+  }
