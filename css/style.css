@@ -27,12 +27,15 @@ body {
     display: flex;
     justify-content: right;
   }
+  .NavLeft ul li:first-child {
+    font-weight: 1000;
+  }
 
   .headerText {
     position: relative;
     padding-top: 0px;
+    padding-left: 9px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     text-align: center;
     overflow: visible;
@@ -40,6 +43,7 @@ body {
   .headerText .Alex {
     color: white;
     font-size: 32px;
+    text-align: center;
   } 
 
   .NavRight {
@@ -75,6 +79,7 @@ body {
     margin: 0 0;
     padding-top: 14px;
     text-align: center;
+    font-size: 22px;
   } 
 
   
@@ -104,10 +109,10 @@ body {
   padding-top: 300px;
 }
 .content .top {
-  font-size: 22px;
+  font-size: 20px;
 }
 .content .bottom {
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 550;
 }
 
