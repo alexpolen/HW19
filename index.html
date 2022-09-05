@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HW18 Portfolio</title>
+    <title>document</title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
   </head>
 
@@ -12,8 +12,8 @@
       <div class="MainNav">
         <div class="NavLeft">
           <ul>
-           <li>WORK</li>
-           <li>About</li>
+           <li href="#myWork">WORK</li>
+           <li href="#heading">About</li>
           </ul>
        </div>
        <div class="headerText">
@@ -40,13 +40,17 @@
         <p class="bottom">Explore below to find out more.</p>
         <!-- <button>Download Resume</button> -->
         </div>
+        <div class="heroButton">
+          <input href="#heading" type="image" src="images/HeroScrollButton.png" name="scrollButton" class="scrollButton" id="scrollButton" />
+        </div>
       </div>
-    </div>
+      
+      </div>
     </section>
     
     <!-- My Skills-->
-    <h1 class="heading">My UX/UI Skills</h1>
-    <section class="flexContainer">
+    <h1 class="heading" id="heading">My UX/UI Skills</h1>
+    <section class="flexContainer" id="flexContainer">
       <div class="skill1">
         <img src="images/Proto-Persona-1 2.png">
         <h3>User Research</h3>
@@ -57,7 +61,7 @@
         <h3>User Interface Design</h3>
         <p>Throughout several individual and group projects, I have completed UI Interfaces for mobile first, responsive webpages and mobile apps. </p>
       </div>
-      <div>
+      <div class="skill3">
         <img src="images/Skill3.png">
         <h3>Web Development</h3>
         <p>'Coding Conversational' - Basic knowledge in HTML, CSS, Bootrap 4, and jQuery with the ability to create webpages and implement responsive elements, event listeners, and more. I also made this website!
@@ -70,7 +74,7 @@
 
 <!--MY WORK-->
 
-    <section class="myWork">
+    <section class="myWork" id="myWork">
       <h1 class="WorkHeading">My Work</h1>
       <div class="workGrid">
         <div class="img1">
@@ -105,11 +109,13 @@
       </ul>
     </footer>
   
-  </body>
 
+ 
+    <script src="js/index.js"></script>
+  </body>
 <!-- Java Script -->
 
-<script src="js/index.js"></script>
+
 
 
 </html>

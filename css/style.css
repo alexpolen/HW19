@@ -64,7 +64,7 @@ body {
 
 
   .heroImg{
-
+    max-height: 865px;
     padding: 0 auto;
     background-image: url(../images/Hero\ Content\ Page.png);
     background-size: cover;
@@ -72,6 +72,13 @@ body {
     background-position: center;
     position: relative;
     margin: 0 auto;
+  }
+
+  .heroButton {
+    display: flex;
+    align-items: center;
+    width: 598px;    
+    justify-content: center;
   }
 
   .heroImg .UX {
@@ -282,3 +289,7 @@ button {
      visibility: visible;
     opacity: 0.4;
   }
+
+
+
+
