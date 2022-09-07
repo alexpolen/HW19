@@ -64,9 +64,10 @@ body {
 
 
   .heroImg{
-    max-height: 865px;
+    height: 865px;
+
     padding: 0 auto;
-    background-image: url(../images/Hero\ Content\ Page.png);
+    background-image: url(../images/SKI.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -77,8 +78,8 @@ body {
   .heroButton {
     display: flex;
     align-items: center;
-    width: 598px;    
     justify-content: center;
+    margin-top: 100px;
   }
 
   .heroImg .UX {
@@ -108,12 +109,17 @@ body {
   
   .content {
     max-width: 350px;
-    margin-left: 370px;
+    margin: 0px;
     text-align: center;
-    height:830px;
+    
+
   }
-.HeroDiv {
-  padding-top: 300px;
+.HeroText {
+  margin-top: 420px;
+  padding-top: 30px;
+  padding-left: 100px;
+  width: 350px;
+
 }
 .content .top {
   font-size: 20px;
