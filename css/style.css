@@ -218,12 +218,12 @@ button {
     grid-template-columns: 60% 20%;
     grid-template-rows: 500px 650px;
     grid-template-areas:
-    "img1 content1"
     "img2 content2"
+    "img1 content1"
   }
 
   .workGrid .img2 {
-    scale: .7;
+
   }
   
   @media screen and (max-width:600px) {
@@ -232,7 +232,7 @@ button {
       padding: 30px;
       padding-right: 90px;
       grid-template-columns: 100%;
-      grid-template-rows: 450px 300px 700px 275px;
+      grid-template-rows: 600px 600px 700px 600px;
       grid-template-areas:
       "img1"
       "content1"
@@ -243,7 +243,7 @@ button {
   
   .workGrid img {
     width: 100%;
-    max-width: 350px;
+    max-width: 550px;
     margin: 0 auto;
     display: block;
   }
