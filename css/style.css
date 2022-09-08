@@ -299,6 +299,10 @@ button {
 
 
   /* CASE STUDY CSS */
+  .casestudyheader{
+    margin-top: 20px;
+    background-color: white;
+  }
 
   .casestudyheader img {
     background-color: white;
