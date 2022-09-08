@@ -307,7 +307,7 @@ button {
   
   .list-group a {
     display: flex;
-    width: 30%;
+    width: 50%;
     
   }
 
@@ -341,11 +341,101 @@ button {
 }
 
 .ALL {
-    margin-left: 320px;
-    margin-right: 320px;
+    margin-left: 280px;
+    margin-right: 280px;
     scale:0.97;
 }
 
 .caseStudyFooter {
     padding: 0 0;
 }
+
+.introImage {
+  margin-bottom: 100px;
+}
+
+.cardDiv {
+  display: flex;
+  justify-content: center;
+  padding-right: 200px;
+
+}
+
+.introGrid{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.introText {
+  padding-top: 100px;
+}
+
+.list-group {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.projectOverview {
+  margin-bottom: 80px;
+}
+
+.divider1 {
+  margin-bottom: 150px;
+}
+
+.researchQuote {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  font-size: 3;
+}
+.researchText {
+  max-width: 800px;
+  margin-bottom: 100px;
+}
+
+.researchImage2 {
+  margin-bottom: 100px;
+}
+
+.divider {
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+
+.userFlowImage{
+  scale:.9;
+  padding-right: 350px;
+}
+
+.sixcol {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.styleTile{
+  margin-bottom: 90px;
+}
+
+
+#designProcessText {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.prototypes {
+  margin: 0;
+}
+.sixcolFinal {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.sixcol3 {
+  margin:0 auto;
+}
+
+.caseStudyFooter{
+  height: 170px;
+  align-items: center;
+}
+
